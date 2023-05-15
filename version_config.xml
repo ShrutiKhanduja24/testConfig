@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>My App Changelog</title>
+    <title>For unit test only</title>
     <item>
-      <title>Version 2.0.0</title>
-      <description> <![CDATA[<h3>What's New in Version 2.0.0</h3><ul><li>New feature 1</li><li>New feature 2</li></ul>]]> </description>
-      <pubDate>Tue, 15 May 2023 00:00:00 +0000</pubDate>
-      <enclosure url="https://mywebsite.com/myapp.apk" sparkle:version="2.0.0" />
+        <title>Version 2.0</title>
+        <description>desc Версия</description>
+        <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
+        <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="2.0" />
+        <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
     </item>
   </channel>
 </rss>
